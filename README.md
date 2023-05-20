@@ -3,7 +3,7 @@
 
 1. [Introduction](#overview)
     1. [In scope](#inscope)
-    2. [Gem files to add](#gems)
+    2. [Out of Scope](#outofscope)
 2. [Frontend](#frontend)
     1. [Views](#views)
 3. [Routes](#routes)
@@ -28,7 +28,7 @@ All associated applications, infrastruction and platform related to the journeys
 The methodology used is agnostic of the platform, whether this is cloud based, on prem or SaaS. <br>
 
 The rational behind this is threat mdoelling is a multi disciplinary approach and threats can vectors can arise from a wide range of sources. This is irrespective of protocols used in a system being analysed and the underlying technology components. 
-### Out of Scope <a name="Out of Scope"></a>
+### Out of Scope <a name="outofscope"></a>
 Quality of systems is not inscope, for instance code quality and efficiences of network protocols is firmly not in scope of this threat modelling methodology.
 ### What is Threat Modelling
 As a key cyber security strategy a number of organisations implement technology controls frameworks which require security by design. Security by design can be achieved via threat modelling (TM). TM is considered a inter-disciplinary workshop during which developers, testers, product owners, technicians, operations, application support and security champions work together to perform what is best described as “whiteboard hacking”. The application, infrastructure and platform are torn down and the architecture opened up in detail like a "hacker" would do. Technical vulnerabilities are examined  
