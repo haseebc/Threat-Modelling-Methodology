@@ -4,6 +4,7 @@
 1. [Introduction](#overview)
     1. [In scope](#inscope)
     2. [Out of Scope](#outofscope)
+    3. [What is Threat Modelling](#whatis)
 2. [Frontend](#frontend)
     1. [Views](#views)
 3. [Routes](#routes)
@@ -30,7 +31,7 @@ The methodology used is agnostic of the platform, whether this is cloud based, o
 The rational behind this is threat mdoelling is a multi disciplinary approach and threats can vectors can arise from a wide range of sources. This is irrespective of protocols used in a system being analysed and the underlying technology components. 
 ### Out of Scope <a name="outofscope"></a>
 Quality of systems is not inscope, for instance code quality and efficiences of network protocols is firmly not in scope of this threat modelling methodology.
-### What is Threat Modelling
+### What is Threat Modelling <a name="whatis"></a>
 As a key cyber security strategy a number of organisations implement technology controls frameworks which require security by design. Security by design can be achieved via threat modelling (TM). TM is considered a inter-disciplinary workshop during which developers, testers, product owners, technicians, operations, application support and security champions work together to perform what is best described as “whiteboard hacking”. The application, infrastructure and platform are torn down and the architecture opened up in detail like a "hacker" would do. Technical vulnerabilities are examined  
 
 There are many variants of threat modelling including full, incremental and semi-automated in cloud CI/CD pipelines. Agile teams should perform “mini” threat modelling as part of creating each user story –thinking of abuse or attack scenarios for assets the software may be handling.
@@ -43,3 +44,19 @@ What might a Threat Model Expose
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection , tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
 ```bash
+
+Methodology
+
+Metadata and Housekeeping
+The TM is timeboxed
+
+Checklist for Threat Modelling
+
+Siziung a Threat model - How long will it take?
+
+A note of Tooling
+AI useage. https://github.com/jhaddix/SubreconGTP
+Refernces
+
+About the author
+
