@@ -52,21 +52,21 @@ There are many variants of threat modelling including full, incremental and semi
 | Step | Details | Justification |
 | :--- | :----------------------------------------------: | :----------------------------------------: |
 | 1.1  | Data flow diagram is prepared and reviewed  :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
-| 1.2  | Assets, Controls and Threat Agents identified.   | Critical for understanding the architecture and low level technical control points |
-| 2.1  | Ensure purpose and of each flow is understood    | Justification and classification of the flow of data is understood                 |
-| 2.2  | Ensudre data transfer&storage crypto understood  | To ensure approved ciphers used for data in transit and storage |
-| 2.3  | How is authentication and authorisation achieved?   | Understnding how trust is achieved and IAM model is a critical understanding |
-| 2.4 | Are mechanism for secrets stored for data movement?   | For each flow understanding secrets management is required |
-| 3.1| Are source code and code dependency scanning implemented  | Securing build phase of the system |
-| 3.2 | For cloud is IaC and security policy as code implemented   | Securing cloud infrastructure built and implementing security policy |
-| 3.3 | Are built artifacts dynamically scanned for weaknesses  | Provides security assurance of what has been deployed is secure |
-| 3.4 | Are built artifacts dynamically scanned for weaknesses  | Provides security assurance of what has been deployed is secure |
-| 4.1  | Application security reviewed against OWASP App Sec Verification Standard   | Use of industry standard to validate application security posture |
-| 4.2  | Infrastructure and cloud platform security reviewed against CIS benchmarks   | Use of industry standard to validate infra and cloud security posture |
-| 5    | Review what auditing and logging employed  | Ensure security event information from systems is captured and alerted upon |
+| 1.2  | Assets, Controls and Threat Agents identified :white_check_mark:| Critical for understanding the architecture and low level technical control points |
+| 2.1  | Ensure purpose and of each flow is understood :white_check_mark:| Justification and classification of the flow of data is understood                 |
+| 2.2  | Ensudre data transfer&storage crypto understood :white_check_mark:| To ensure approved ciphers used for data in transit and storage |
+| 2.3  | How is authentication and authorisation achieved? :white_check_mark:| Understnding how trust is achieved and IAM model is a critical understanding |
+| 2.4 | Are mechanism for secrets stored for data movement? :white_check_mark:| For each flow understanding secrets management is required |
+| 3.1| Are source code and code dependency scanning implemented :white_check_mark:| Securing build phase of the system |
+| 3.2 | For cloud is IaC and security policy as code implemented :white_check_mark:| Securing cloud infrastructure built and implementing security policy |
+| 3.3 | Are built artifacts dynamically scanned for weaknesses :white_check_mark:| Provides security assurance of what has been deployed is secure |
+| 3.4 | Are built artifacts dynamically scanned for weaknesses :white_check_mark:| Provides security assurance of what has been deployed is secure |
+| 4.1  | Application security reviewed against OWASP App Sec Verification Standard :white_check_mark:| Use of industry standard to validate application security posture |
+| 4.2  | Infrastructure and cloud platform security reviewed against CIS benchmarks :white_check_mark:| Use of industry standard to validate infra and cloud security posture |
+| 5    | Review what auditing and logging employed :white_check_mark:| Ensure security event information from systems is captured and alerted upon |
 | 6   |    | Ensure there this a technical understanding of how data flows through the components |
-| 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
-| 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
+| 1    | Data flow diagram is prepared and reviewed :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
+| 1    | Data flow diagram is prepared and reviewed :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
 
 
 
