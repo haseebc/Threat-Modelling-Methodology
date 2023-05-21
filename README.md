@@ -72,9 +72,11 @@ There are many variants of threat modelling including full, incremental and semi
 | 3.1| Are source code and code dependency scanning implemented  | Securing build phase of the system |
 | 3.2 | For cloud is IaC and security policy as code implemented   | Securing cloud infrastructure built and implementing security policy |
 | 3.3 | Are built artifacts dynamically scanned for weaknesses  | Provides security assurance of what has been deployed is secure |
-| 4.1  | Application security reviewed against OWASP App Sec Verification Standard   | Ensure there this a technical understanding of how data flows through the components |
-| 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
-| 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
+| 3.4 | Are built artifacts dynamically scanned for weaknesses  | Provides security assurance of what has been deployed is secure |
+| 4.1  | Application security reviewed against OWASP App Sec Verification Standard   | Use of industry standard to validate application security posture |
+| 4.2  | Infrastructure and cloud platform security reviewed against CIS benchmarks   | Use of industry standard to validate infra and cloud security posture |
+| 5    | Review what auditing and logging employed  | Ensure security event information from systems is captured and alerted upon |
+| 6   |    | Ensure there this a technical understanding of how data flows through the components |
 | 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
 | 1    | Data flow diagram is prepared and reviewed   | Ensure there this a technical understanding of how data flows through the components |
 
