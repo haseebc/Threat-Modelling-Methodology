@@ -6,7 +6,7 @@
     2. [Out of Scope](#outofscope)
     3. [What is Threat Modelling](#whatis)
     4. [When should a Threat Model be Performed](#when)
-    5. [What Might a Threat Model Expose(#example)
+    5. [What Might a Threat Model Expose](#example)
 2. [Frontend](#frontend)
     1. [Views](#views)
 3. [Routes](#routes)
@@ -51,7 +51,7 @@ So in reality threat modeling can either be done very on in the design phase or 
 ### What might a Threat Model Expose <a name="example"></a>
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
-Methodology
+## Methodology<a name="example"></a>
 
 The methodology used is known as Abuser Stories in the industry and the literature.
 
@@ -60,7 +60,10 @@ Abuser Stories are associated to agile ways of working and are to identify secur
 Abuse cases are designed to launch an attack on the system and identifying the attack paths of the system. Depending on the systems being assessed some of the work here can be automated; however, the experience of a seasoned trained threat modeller some is a core requirement.
 
 There are many variants of threat modelling including full, incremental and semi-automated in cloud CI/CD pipelines. Agile teams should perform “mini” threat modelling as part of creating each user story –thinking of abuse or attack scenarios for assets the software may be handling.
-Step 1 
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
 
 Metadata and Housekeeping
 The TM is timeboxed
