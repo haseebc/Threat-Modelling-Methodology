@@ -39,7 +39,7 @@ So in reality threat modeling can either be done very on in the design phase or 
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
 ## Methodology<a name="method"></a>
-### Threat Modelling Methodology...Devil is in the Details  
+### Threat Modelling Methodology...The Devil is in the Details  
 
 The methodology used is known as Abuser Stories in the industry and the literature.
 
@@ -51,7 +51,7 @@ There are many variants of threat modelling including full, incremental and semi
 
 | Step | Details | Justification |
 | :--- | :----------------------------------------------: | :----------------------------------------: |
-| 1.1  | Data flow diagram is prepared and reviewed       | Ensure there this a technical understanding of how data flows through the components |
+| 1.1  | Data flow diagram is prepared and reviewed  :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
 | 1.2  | Assets, Controls and Threat Agents identified.   | Critical for understanding the architecture and low level technical control points |
 | 2.1  | Ensure purpose and of each flow is understood    | Justification and classification of the flow of data is understood                 |
 | 2.2  | Ensudre data transfer&storage crypto understood  | To ensure approved ciphers used for data in transit and storage |
