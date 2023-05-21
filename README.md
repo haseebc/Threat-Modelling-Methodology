@@ -65,7 +65,7 @@ There are many variants of threat modelling including full, incremental and semi
 | 4.2  | Infrastructure and cloud platform security reviewed against CIS benchmarks :white_check_mark:| Use of industry standard to validate infra and cloud security posture |
 | 5    | Review what auditing and logging employed :white_check_mark:| Ensure security event information from systems is captured and alerted upon |
 | 6   |    | Ensure there this a technical understanding of how data flows through the components |
-| 1    | Data flow diagram is prepared and reviewed :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
+| 7 | If applicable review penetration test findings or conduct penetration test | Provide assurance across the system that exploitable vulnerabilities have been assessed|
 | 1    | Data flow diagram is prepared and reviewed :white_check_mark:| Ensure there this a technical understanding of how data flows through the components |
 
 
