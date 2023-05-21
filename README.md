@@ -84,4 +84,4 @@ I am cyber security practioner with over 20 years of experience working with a n
 
 After graduating I spent a number of years building and design security global networks and then time as an application security engineer.
 
-The threat modelling methodology presented is as a consequence of experience securing and building production scale technical environments. My profile is on linked in [here](https://www.linkedin.com/in/haseeb-chaudhary-07695938/)
+The threat modelling methodology presented is as a consequence of experience securing and building production scale technical environments. My profile is on linked [here](https://www.linkedin.com/in/haseeb-chaudhary-07695938/).
