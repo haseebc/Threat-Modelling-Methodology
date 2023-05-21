@@ -41,14 +41,14 @@ This core goal cannot be achieved when full cloud CI/CD is used because the repo
 So in reality threat modeling can either be done very on in the design phase or performed retrospectively (known as “retro-legacy” threat modelling).  For a “retro-legacy” threat model, this could additionally include some code review of critical areas of the software in legacy applications to check for old crypto, libraries, depreciated function calls, etc.
 
 Triggers to identify when a manual Threat Modellingi s needed:
-•A new product is being designed•A legacy applicationhas never had a threat model done yet•A major functionality change or big code modification is made in anapplication
-•A major vulnerability or security issue has been detected•
-A threat model hasn’t been done in over 2 years for the application
++ A new product is being designed•A legacy applicationhas never had a threat model done yet•A major functionality change or big code modification is made in anapplication
++ A major vulnerability or security issue has been detected•
++ A threat model hasn’t been done in over 2 years for the application
 
 What might a Threat Model Expose
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection , tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
-```bash
+
 
 Methodology
 
