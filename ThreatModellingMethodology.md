@@ -10,7 +10,8 @@
 2. [Methology](#method)
     1. [Abuser User Stories Threat Modelling, Devis is in the Detail](#abuser)
     2. [Threat Modelling Checklist](#checklist)
-    3. [Tooling](#tooling)
+    3. [Output of Threat Modelling](#output)
+    4. [Tooling](#tooling)
 2. [About the Author](#about)
 
 
@@ -75,6 +76,9 @@ Detailed below is a overall checklist of a possible threat model. It is importan
 | 4.2  | Infrastructure and cloud platform security reviewed against CIS benchmarks :white_check_mark:| Use of industry standard to validate infra and cloud security posture |
 | 5    | Review what auditing and logging employed :white_check_mark:| Ensure security event information from systems is captured and alerted upon |
 | 6 | If applicable review penetration test findings or conduct penetration test :white_check_mark:| Provide assurance across the system that exploitable vulnerabilities have been assessed|
+
+### Output of Threat Modelling<a name="output"></a> 
+A comprehensive threat model report is produced which details the threats applicable to the system, risk rating and their priority. The report will include recommendations (action items) to mitigate the threats identified. As well as often technical code level details an Executive Summary is provided. 
 
 ### Tooling<a name="tooling"></a> 
 There is no one specific silver bullet for tools to use for threat modelling. A number of tools are used, for example drawing tools and specific tools to map the attack surface and if required tools for penetration testing. A growing trend now is to use AI assisted (OpenAI GPT-3 model) tools, for example for subdomain discovery.
