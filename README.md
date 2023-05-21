@@ -63,7 +63,7 @@ There are many variants of threat modelling including full, incremental and semi
 
 | Step | In Stock | Price |
 | :--- | :------: | ----: |
-| 1 |   True   | 23.99 |
+| 1    |   True   | 23.99 |
 
 Metadata and Housekeeping
 The TM is timeboxed
