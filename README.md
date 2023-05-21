@@ -10,14 +10,14 @@
 2. [Methology](#method)
     1. [Abuser User Stories Threat Modelling, Devis is in the Detail](#abuser)
     2. [Threat Modelling Checklist](#checklist)
+    3. [Threat Modelling Checklist](#tooling)
+2. [About the Author](#about)
 
 
 ## Introduction
 The purpose of this document is to provide an overview of the methodology used for threat modelling of technical systems.
 ### In Scope <a name="inscope"></a>
 All associated applications, infrastructure and platform related to the journeys of information and data are considered to be in scope. In addition applicable processess, policies and standards are also in scope where applicable. 
-
-The methodology used is agnostic of the platform, whether this is cloud based, on prem or SaaS. <br>
 
 The rational behind this is threat mdoelling is a multi disciplinary approach and threats can vectors can arise from a wide range of sources. This is irrespective of protocols used in a system being analysed and the underlying technology components. 
 ### Out of Scope <a name="outofscope"></a>
@@ -41,15 +41,21 @@ So in reality threat modeling can either be done very on in the design phase or 
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
 ## Methodology<a name="method"></a>
-### Threat Modelling Methodology...The Devil is in the Details  
+### Threat Modelling Methodology...The Devil is in the Details  <a name="method"></a>
 
 The methodology used is known as Abuser Stories in the industry and the literature.
+
+This methodology used is agnostic of the platform, whether this is cloud based, on prem or SaaS. In reality system are often a combination of third party components (SaaS), specific cloud build environment with often connectivity to on premise datacentres.
 
 Abuser Stories are associated to agile ways of working and are to identify security threats in the system. This process of identifying security flaws is done by identifying the ways how the attackers may abuse the system. In Agile modelling, threats modelling process is based on five elements identifying threats, understanding threats, categorizing threats, identifying mitigation strategies and testing. 
 
 Abuse cases are designed to launch an attack on the system and identifying the attack paths of the system. Depending on the systems being assessed some of the work here can be automated; however, the experience of a seasoned trained threat modeller some is a core requirement.
 
 There are many variants of threat modelling including full, incremental and semi-automated in cloud CI/CD pipelines. Agile teams should perform “mini” threat modelling as part of creating each user story –thinking of abuse or attack scenarios for assets the software may be handling.
+
+The methodology is time boxed, meaning a specific amount of time (number of days) is allocated to the excercise with some flexibility. As mentioned above threat modelling is a collaborative approach whether the threat modelling leader invites technical experts to assist with tearing down the system during white boarding with a heacker mentality.
+
+### Threat Modelling Checklist<a name="abuser"></a> 
 
 | Step | Details | Justification |
 | :--- | :----------------------------------------------: | :----------------------------------------: |
@@ -68,19 +74,12 @@ There are many variants of threat modelling including full, incremental and semi
 | 5    | Review what auditing and logging employed :white_check_mark:| Ensure security event information from systems is captured and alerted upon |
 | 6 | If applicable review penetration test findings or conduct penetration test :white_check_mark:| Provide assurance across the system that exploitable vulnerabilities have been assessed|
 
+### Tooling<a name="tooling"></a> 
+There is no one specific silver bullet for tools to use for threat modelling. A number of tools are used for example drawing tools and specific tools to map the attack surface and if required tools for penetration testing. A growing trend now is to use AI assisted (OpenAI GPT-3 model) tools, for example for subdomain discovery.
 
+## About the author<a name="author"></a> 
+I am cyber security practioner with over 20 years of experience working with a number of organisations as a security engineer and expert threat modeller. My background is as a trained chemist and applied physicist with a lifelong interest in science and the physical world.
 
+After graduating I spent a number of years building and design security global networks and then time as application security engineers.
 
-Metadata and Housekeeping
-The TM is timeboxed
-
-Checklist for Threat Modelling
-
-Siziung a Threat model - How long will it take?
-
-A note of Tooling
-AI useage. https://github.com/jhaddix/SubreconGTP
-Refernces
-
-About the author
-
+The threat modelling methodology presented is as a consequence of experience securing and building production scale technical environments/
