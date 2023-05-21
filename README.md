@@ -17,28 +17,29 @@
 ## Introduction
 The purpose of this document is to provide an overview of the methodology used for threat modelling of technical systems.
 ### In Scope <a name="inscope"></a>
-All associated applications, infrastructure and platform related to the journeys of information and data are considered to be in scope. In addition applicable processess, policies and standards are also in scope where applicable. 
+All associated applications, infrastructure and platform related to the journeys of information and data are considered to be in scope. In addition processess, policies and standards are also in scope where applicable. 
 
-The rational behind this is threat mdoelling is a multi disciplinary approach and threats can vectors can arise from a wide range of sources. This is irrespective of protocols used in a system being analysed and the underlying technology components. 
+The rational behind this is that threat mdoelling is a multi disciplinary approach and attack vectors can arise from a wide range of sources. This is irrespective of protocols used in a system being analysed and the underlying technology components. 
 ### Out of Scope <a name="outofscope"></a>
 Quality of systems is not inscope, for instance code quality and efficiences of network protocols is firmly not in scope of this threat modelling methodology.
 ### What is Threat Modelling <a name="whatis"></a>
-As a key cyber security strategy a number of organisations implement technology controls frameworks which require security by design. Security by design can be achieved via threat modelling (TM). TM is considered a inter-disciplinary workshop during which developers, testers, product owners, technicians, operations, application support and security champions work together to perform what is best described as “whiteboard hacking”. The application, infrastructure and platform are torn down and the architecture opened up in detail like a "hacker" would do. Technical vulnerabilities are examined  
+As a key cyber security strategy a number of organisations implement technology controls frameworks which require security by design. Security by design can be achieved via threat modelling. Threat modelling is considered a inter-disciplinary workshop during which developers, testers, product owners, technicians, operations, application support and security champions work together to perform what is best described as “whiteboard hacking”. The application, infrastructure and platform are torn down and the architecture opened up in detail like a "hacker" would do. Technical vulnerabilities are examined  
 ### When Should Threat Modelling be Performed<a name="whatis"></a>
-The core objective of TM is to highlight security design weaknesses early within the development cycle – to make them less expensive to fix rather than later when they have already been developed. 
+The core objective of threat modelling is to highlight security design weaknesses early within the development cycle – to make them less expensive to fix rather than later when they have already been developed. 
 
 This core goal cannot be achieved when full cloud CI/CD is used because the repositories are already built and written. Hence, automated threat modeling is really not a reality in modern work flows.
 
-So in reality threat modeling can either be done very on in the design phase or performed retrospectively (known as “retro-legacy” threat modelling).  For a “retro-legacy” threat model, this could additionally include some code review of critical areas of the software in legacy applications to check for old crypto, libraries, depreciated function calls, etc.
+So in practice, threat modeling can either be done very early on in the design phase or performed retrospectively (known as “retro-legacy” threat modelling).  For a “retro-legacy” threat models, this could additionally include some code review of critical areas of the software in legacy applications to check for old crypto, libraries, depreciated function calls, etc.
 
 **Triggers to identify when a manual Threat Modelling is needed:**
 + A new product is being designed
-+ A legacy system never had a threat model done yet•A major functionality change or big code modification is made in anapplication
++ A legacy system never had a threat model done yet
++ A major functionality change or big code modification is made in a system
 + A major vulnerability or security issue has been detected
 + A threat model hasn’t been done in over 3 years for the application
 
 ### What might a Threat Model Expose <a name="example"></a>
-Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
+Findings during threat modelling sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
 ## Methodology<a name="method"></a>
 ### Threat Modelling Methodology...The Devil is in the Details  <a name="method"></a>
@@ -56,6 +57,7 @@ There are many variants of threat modelling including full, incremental and semi
 The methodology is time boxed, meaning a specific amount of time (number of days) is allocated to the excercise with some flexibility. As mentioned above threat modelling is a collaborative approach whether the threat modelling leader invites technical experts to assist with tearing down the system during white boarding with a heacker mentality.
 
 ### Threat Modelling Checklist<a name="abuser"></a> 
+Detailed below is a overall checklist of a possible threat model. It is important to note that the requirements for a threat model are dependent upon the scope agreed and system components being reviewed. The checklist below is a broad overview.
 
 | Step | Details | Justification |
 | :--- | :----------------------------------------------: | :----------------------------------------: |
@@ -75,11 +77,11 @@ The methodology is time boxed, meaning a specific amount of time (number of days
 | 6 | If applicable review penetration test findings or conduct penetration test :white_check_mark:| Provide assurance across the system that exploitable vulnerabilities have been assessed|
 
 ### Tooling<a name="tooling"></a> 
-There is no one specific silver bullet for tools to use for threat modelling. A number of tools are used for example drawing tools and specific tools to map the attack surface and if required tools for penetration testing. A growing trend now is to use AI assisted (OpenAI GPT-3 model) tools, for example for subdomain discovery.
+There is no one specific silver bullet for tools to use for threat modelling. A number of tools are used, for example drawing tools and specific tools to map the attack surface and if required tools for penetration testing. A growing trend now is to use AI assisted (OpenAI GPT-3 model) tools, for example for subdomain discovery.
 
 ## About the author<a name="author"></a> 
 I am cyber security practioner with over 20 years of experience working with a number of organisations as a security engineer and expert threat modeller. My background is as a trained chemist and applied physicist with a lifelong interest in science and the physical world.
 
-After graduating I spent a number of years building and design security global networks and then time as application security engineers.
+After graduating I spent a number of years building and design security global networks and then time as an application security engineer.
 
-The threat modelling methodology presented is as a consequence of experience securing and building production scale technical environments/
+The threat modelling methodology presented is as a consequence of experience securing and building production scale technical environments. My profile is on linked in [here](https://www.linkedin.com/in/haseeb-chaudhary-07695938/)
