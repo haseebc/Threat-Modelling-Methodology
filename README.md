@@ -8,6 +8,8 @@
     4. [When should a Threat Model be Performed](#when)
     5. [What Might a Threat Model Expose](#example)
 2. [Methology](#method)
+    1. [Abuser User Stories Threat Modelling, Devis is in the Detail](#abuser)
+    2. [Threat Modelling Checklist](#checklist)
 
 
 ## Introduction
