@@ -5,6 +5,7 @@
     1. [In scope](#inscope)
     2. [Out of Scope](#outofscope)
     3. [What is Threat Modelling](#whatis)
+    4. [When should a Threat Model be Performed](#when)
 2. [Frontend](#frontend)
     1. [Views](#views)
 3. [Routes](#routes)
@@ -40,19 +41,20 @@ This core goal cannot be achieved when full cloud CI/CD is used because the repo
 
 So in reality threat modeling can either be done very on in the design phase or performed retrospectively (known as “retro-legacy” threat modelling).  For a “retro-legacy” threat model, this could additionally include some code review of critical areas of the software in legacy applications to check for old crypto, libraries, depreciated function calls, etc.
 
-Triggers to identify when a manual Threat Modellingi s needed:
+*Triggers to identify when a manual Threat Modellingi s needed:*
 + A new product is being designed
-+ A legacy applicationhas never had a threat model done yet•A major functionality change or big code modification is made in anapplication
-+ A major vulnerability or security issue has been detected•
-+ A threat model hasn’t been done in over 2 years for the application
++ A legacy system never had a threat model done yet•A major functionality change or big code modification is made in anapplication
++ A major vulnerability or security issue has been detected
++ A threat model hasn’t been done in over 3 years for the application
 
 What might a Threat Model Expose
-Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection , tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
+Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
 Methodology
 
+The methodology used is known as Abuser Stories in the industry and the literature
 There are many variants of threat modelling including full, incremental and semi-automated in cloud CI/CD pipelines. Agile teams should perform “mini” threat modelling as part of creating each user story –thinking of abuse or attack scenarios for assets the software may be handling.
-
+Step 1 
 
 Metadata and Housekeeping
 The TM is timeboxed
