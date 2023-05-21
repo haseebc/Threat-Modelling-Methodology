@@ -10,7 +10,7 @@
 2. [Methology](#method)
     1. [Abuser User Stories Threat Modelling, Devis is in the Detail](#abuser)
     2. [Threat Modelling Checklist](#checklist)
-    3. [Threat Modelling Checklist](#tooling)
+    3. [Tooling](#tooling)
 2. [About the Author](#about)
 
 
