@@ -61,9 +61,9 @@ Abuse cases are designed to launch an attack on the system and identifying the a
 
 There are many variants of threat modelling including full, incremental and semi-automated in cloud CI/CD pipelines. Agile teams should perform “mini” threat modelling as part of creating each user story –thinking of abuse or attack scenarios for assets the software may be handling.
 
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
+| Step | In Stock | Price |
+| :--- | :------: | ----: |
+| 1 |   True   | 23.99 |
 
 Metadata and Housekeeping
 The TM is timeboxed
