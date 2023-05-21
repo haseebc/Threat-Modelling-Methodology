@@ -7,21 +7,8 @@
     3. [What is Threat Modelling](#whatis)
     4. [When should a Threat Model be Performed](#when)
     5. [What Might a Threat Model Expose](#example)
-2. [Frontend](#frontend)
-    1. [Views](#views)
-3. [Routes](#routes)
-4. [Controller](#controller)
-5. [Models](#model)
-    1. [checks table](#checks)
-6. [Attack Engine](#attackengine)
-    1. [Attack Calls](#attackcalls)
-7. [Java Scripts Used](#js)
-    1. [Timer check for script to run](#timerjs)
-8. [Redis and Heroku](#redisandheroku)
-    1. [Useful Heroku comamnds](#herokucommands)
-    2. [Sidekiq overview and how to deploy to Heroku](#sidekiq)
-    23. [Sidekiq overview and how to deploy to Heroku](#sidekiq)
-9. [Developing & Deploying](#developdeploy)
+2. [Methology](#method)
+
 
 ## Introduction
 The purpose of this document is to provide an overview of the methodology used for threat modelling of technical systems.
@@ -51,7 +38,8 @@ So in reality threat modeling can either be done very on in the design phase or 
 ### What might a Threat Model Expose <a name="example"></a>
 Findings during TM sessions may for instance indicate ciphers used are forbidden for what is suppose to be a secure cloud connection, tokens used in a application session are open to abuse or the CI CD pipeline is not hardened (secrets exposed in repositoriesd used for a cloud deployment). These findings are assessed in terms of net risk and recommendations for mitigation made.
 
-## Methodology<a name="example"></a>
+## Methodology<a name="method"></a>
+### Threat Modelling Methodology...Devil is in the Details  
 
 The methodology used is known as Abuser Stories in the industry and the literature.
 
